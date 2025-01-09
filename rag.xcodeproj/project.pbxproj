@@ -25,6 +25,7 @@
 /* Begin PBXFileReference section */
 		CF2943DF2CBD9C4100F0F0A5 /* rag */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = rag; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF2943E22CBD9C4100F0F0A5 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		EA91F67D2D2BBC8300DFEF51 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +58,7 @@
 		CF2943E12CBD9C4100F0F0A5 /* rag */ = {
 			isa = PBXGroup;
 			children = (
+				EA91F67D2D2BBC8300DFEF51 /* README.md */,
 				CF2943E22CBD9C4100F0F0A5 /* main.swift */,
 			);
 			path = rag;
@@ -248,9 +250,11 @@
 		CF2943E72CBD9C4100F0F0A5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = L6KJ69AS7P;
+				DEVELOPMENT_TEAM = WQY45CL427;
 				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.qoli.SwiftRAG;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -259,9 +263,11 @@
 		CF2943E82CBD9C4100F0F0A5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = L6KJ69AS7P;
+				DEVELOPMENT_TEAM = WQY45CL427;
 				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.qoli.SwiftRAG;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
